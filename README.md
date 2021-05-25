@@ -31,3 +31,7 @@ Files on the Staging Index are poised to be added to the repository.
 
 #### 8. Branch :
 it is when a new line of development is created that diverges from the main line of development. This alternative line of development can continue without altering the main line.
+
+<em> Next, if you haven't installed git on your computer :</em>
+#### For <b>windows</b> users install git bash from the following link : [Download Git](https://git-scm.com/downloads)
+#### For <b>linux</b> users run the following command on the terminal : ```sudo apt-get install git```
