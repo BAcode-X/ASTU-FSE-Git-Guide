@@ -37,5 +37,12 @@ it is when a new line of development is created that diverges from the main line
 #### For <b>linux</b> users run the following command on the terminal : ```sudo apt-get install git```
 
 ##### To set the name and email for git to use when you commit use the following command :
-```git config --global user.name "<your name>"```
+```git config --global user.name "<your name>"```<br>
 ```git config --global user.email "<your email>"```
+
+<em>Go to your github account and click the button <strong>New</strong> which is a button for creating a new repository. Then give it a name and click on the <strong>create repository</strong> button.</em>
+
+##### Now copy the url and open the terminal and enter the following command
+```git clone <url> [local dir name]```
+<br>
+This will create a directory named local dir name, containing  a working 	copy  of the files from the repo, and a **.git** directory
