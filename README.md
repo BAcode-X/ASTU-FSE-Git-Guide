@@ -35,3 +35,7 @@ it is when a new line of development is created that diverges from the main line
 <em> Next, if you haven't installed git on your computer :</em>
 #### For <b>windows</b> users install git bash from the following link : [Download Git](https://git-scm.com/downloads)
 #### For <b>linux</b> users run the following command on the terminal : ```sudo apt-get install git```
+
+##### To set the name and email for git to use when you commit use the following command :
+```git config --global user.name "<your name>"```
+```git config --global user.email "<your email>"```
