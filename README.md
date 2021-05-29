@@ -32,7 +32,8 @@ Files on the Staging Index are poised to be added to the repository.
 #### 8. Branch :
 it is when a new line of development is created that diverges from the main line of development. This alternative line of development can continue without altering the main line.
 
-Git has three sections/areas.
+Git has three sections/areas
+
 ![](images/git_working_areas)
 
 <em> Next, if you haven't installed git on your computer :</em>
