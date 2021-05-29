@@ -45,4 +45,22 @@ it is when a new line of development is created that diverges from the main line
 ##### Now copy the url and open the terminal and enter the following command
 ```git clone <url> [local dir name]```
 <br>
-This will create a directory named local dir name, containing  a working 	copy  of the files from the repo, and a **.git** directory
+This will create a directory named local dir name, containing a working copy of the files from the repo, and a **.git** directory
+
+<em>Now you can start adding and commiting changes to your repository.</em>
+
+##### Cpreate a sample python file and name it test
+```touch test.py```
+
+##### To check about the status of your working directory, use the following command.
+```git status```
+
+<em>Go ahead and try the command now.
+It will tell you that there is an untracked file and asks you to add the file using the **add** command.</em>
+
+##### To add the files into the staging area use the add command
+```git add <filename>```
+
+<em>To add all new files you have created to the staging area, use the following command</em>
+
+```git add .```
