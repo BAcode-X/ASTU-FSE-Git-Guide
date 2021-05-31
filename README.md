@@ -53,7 +53,7 @@ This will create a directory named local dir name, containing a working copy of 
 
 <em>Now you can start adding and commiting changes to your repository.</em>
 
-##### Cpreate a sample python file and name it test
+##### Create a sample python file and name it test
 ```touch test.py```
 
 ##### To check about the status of your working directory, use the following command.
@@ -62,9 +62,20 @@ This will create a directory named local dir name, containing a working copy of 
 <em>Go ahead and try the command now.
 It will tell you that there is an untracked file and asks you to add the file using the **add** command.</em>
 
-##### To add the files into the staging area use the add command
-```git add <filename>```
+##### To add new files or changed files into the staging area use the add command
+```git add <filename>``` in your case, 
+```git add test.py```
 
 <em>To add all new files you have created to the staging area, use the following command</em>
 
 ```git add .```
+
+##### To commit the staged files, use the commit command followed by a message
+
+```git commit -m "<message>"``` in your case, 
+```git commit -m "added test.py"```
+
+The message part is to describe what kind of change you have made to your directory or code.
+
+<em> Now check the status of your working directory using the status command.</em><br>
+You should be seeing **"nothing to commit, working directory clean"** message.
