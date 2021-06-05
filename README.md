@@ -79,3 +79,15 @@ The message part is to describe what kind of change you have made to your direct
 
 <em> Now check the status of your working directory using the status command.</em><br>
 You should be seeing **"nothing to commit, working directory clean"** message.
+
+While working on your project there might be files which contain credentials and some other sensitive informations that you don't want to share to everyone.
+<em>For example, lets create a simple txt file with a name password.</em>
+```touch password.txt```
+<em>Lets assume this password.txt file contains a secret information and you don't want **Git** to track it.</em>
+
+##### To make git NOT track specific files, create a **.gitignore** file and add the file name in it using ur prefered text editor.
+```touch .gitignore```
+
+Now open the file in any editor and write **password.txt** on the first line of the file.
+Then use the **add** and **commit** command to save the changes you made.
+<em>Note that when you use **add** it didn't track the password.txt file.</em>
