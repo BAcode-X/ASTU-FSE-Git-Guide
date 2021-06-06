@@ -93,4 +93,6 @@ While working on your project there might be files which contain credentials and
 Now open the file in any editor and write **password.txt** on the first line of the file.
 Then use the **add** and **commit** command to save the changes you made.
 
-<em>Note that when you use **add** it didn't track the password.txt file.</em>
+<em>Note that when you use **add**, it didn't track the password.txt file.</em>
+
+If you wish to make **git** not track all of **<em>txt</em>** files, you can add **'*.txt'** (without the quote) on the <em>.gitignore</em> file.
