@@ -37,19 +37,19 @@ Git has three sections/areas
 ![](images/git_working_areas)
 
 <em> Next, if you haven't installed git on your computer :</em>
-#### For <b>windows</b> users install git bash from the following link : [Download Git](https://git-scm.com/downloads)
-#### For <b>linux</b> users run the following command on the terminal : ```sudo apt-get install git```
+#### For <b>windows</b> users, install git bash from the following link : [Download Git](https://git-scm.com/downloads)
+#### For <b>linux</b> users, run the following command on the terminal : ```sudo apt-get install git```
 
 ##### To set the name and email for git to use when you commit use the following command :
 ```git config --global user.name "<your name>"```<br>
 ```git config --global user.email "<your email>"```
 
-<em>Go to your github account and click the button <strong>New</strong> which is a button for creating a new repository. Then give it a name and click on the <strong>create repository</strong> button.</em>
+<em>Go to your github account and click the button <strong>New</strong>, which is a button for creating a new repository. Then give it a name and click on the <strong>create repository</strong> button.</em>
 
 ##### Now copy the url and open the terminal and enter the following command
 ```git clone <url> [local dir name]```
 
-This will create a directory named local dir name, containing a working copy of the files from the repo, and a **.git** directory
+This will create a directory named <local dir name>, containing a working copy of the files from the repo, and a **.git** directory
 
 <em>Now you can start adding and commiting changes to your repository.</em>
 
